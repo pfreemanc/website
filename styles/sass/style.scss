@@ -1,0 +1,63 @@
+// imports
+
+@import "setup";
+
+
+// $darkgrey: #555B6E;
+// $blue-dark: #89B0AE;
+// $blue-light: #BEE3DB;
+// $off-white: #FAF9F9;
+// $orange: #ffd6ba;
+
+
+    // font-family: 'Open Sans Condensed', sans-serif;
+    // https://colorhunt.co/palette/1649
+
+    $white: #f0f5f9;
+    $white-light: #c9d6df;
+    $darker-grey: #52616b;
+    $darkest-grey: #1e2022;
+
+
+body {
+  font-family: 'Noto Sans JP', sans-serif;
+  // font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 62.5%;
+}
+
+header {
+  // background: ;
+  background: $darker-grey;
+  min-height: 100vh;
+  
+  .heading-container {
+    margin: 0 auto;
+    width:90%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    div {
+      padding: 150px;
+      background: $darker-grey;
+      box-shadow: 20px 20px 10px $darkest-grey;
+      border: 5px solid $white-light;
+      border-radius: 2%;
+      color: $white;
+    }
+    h1 {
+      font-size: 5rem;
+      margin: 15px 0;
+    }
+    h2 {
+      font-size: 3.4rem;
+      margin: 0;
+      
+    }
+    h3 {
+      font-size: 2.2rem;
+      margin:10px 0;
+    }
+  }
+}
