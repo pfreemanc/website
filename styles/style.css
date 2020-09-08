@@ -240,14 +240,17 @@ body {
   font-size: 62.5%;
 }
 
+ul {
+  list-style-type: none;
+}
+
 header {
-  background: #52616b;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#87c0ed), color-stop(#90bfeb), color-stop(#97bfe9), color-stop(#9fbee7), to(#a5bee5));
+  background-image: linear-gradient(to bottom, #87c0ed, #90bfeb, #97bfe9, #9fbee7, #a5bee5);
   min-height: 100vh;
 }
 
 header .heading-container {
-  margin: 0 auto;
-  width: 90%;
   height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -265,26 +268,30 @@ header .heading-container {
 }
 
 header .heading-container div {
-  padding: 150px;
-  background: #52616b;
-  -webkit-box-shadow: 20px 20px 10px #1e2022;
-          box-shadow: 20px 20px 10px #1e2022;
-  border: 5px solid #c9d6df;
-  border-radius: 2%;
-  color: #f0f5f9;
+  width: 100%;
+  text-align: center;
+  padding: 50px;
+  background-color: rgba(209, 217, 215, 0.3);
 }
 
-header .heading-container h1 {
-  font-size: 5rem;
-  margin: 15px 0;
+header .heading-container h1,
+header .heading-container h2 {
+  font-size: 3rem;
+  color: #fff;
+  text-transform: lowercase;
+  letter-spacing: 3px;
 }
 
 header .heading-container h2 {
-  font-size: 3.4rem;
-  margin: 0;
+  font-size: 2.2rem;
+  letter-spacing: .2px;
 }
 
-header .heading-container h3 {
-  font-size: 2.2rem;
-  margin: 10px 0;
+header .heading-container ul {
+  font-size: 2.4rem;
+  padding: 0;
+}
+
+header .heading-container ul a {
+  color: #fff;
 }
