@@ -295,3 +295,9 @@ header .heading-container ul {
 header .heading-container ul a {
   color: #fff;
 }
+
+@media (max-width: 400px) {
+  header .heading-container div {
+    padding: 0;
+  }
+}

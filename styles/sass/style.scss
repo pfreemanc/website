@@ -65,3 +65,9 @@ header {
     }
   }
 }
+
+@media (max-width: 400px) {
+  header .heading-container div {
+    padding: 0;
+  }
+}
